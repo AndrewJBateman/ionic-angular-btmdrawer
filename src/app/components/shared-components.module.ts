@@ -3,8 +3,6 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { DrawerComponent } from './drawer/drawer.component';
 
-
-
 @NgModule({
   declarations: [DrawerComponent],
   imports: [
