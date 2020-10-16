@@ -18,11 +18,11 @@
 
 ## :books: General info
 
-* tba
+* Ion-button and gestures used to open or close a drawer with text
 
 ## :camera: Screenshots
 
-![screenshot](./img/audio-player.png)
+![screenshot](./img/drawer.png)
 
 ## :signal_strength: Technologies
 
@@ -33,25 +33,38 @@
 ## :floppy_disk: Setup
 
 * To start the server on _localhost://8100_ type: 'ionic serve'
-* Todo: To start the server on a mobile using Ionic devapp and connected via wifi, type: 'ionic serve --devapp'
-* Todo: The Ionic DevApp was installed on an Android device from the Google Play app store.
 
 ## :computer: Code Examples
 
-* tba
+* extract from `drawer.component.ts` to gently open or close the drawer when html button is toggled
 
 ```typescript
+// Function activated by html button to open drawer if closed and vice-versa
+	// ViewChild 'drawer' used with the read: ElementRef metadata property above
+	toggleDrawer() {
+		const drawer = this.drawer.nativeElement;
+		this.openState.emit(!this.isOpen);
 
+		if (this.isOpen) {
+			drawer.style.transition = '.4s ease-out';
+			drawer.style.transform = '';
+			this.isOpen = false;
+		} else {
+			drawer.style.transition = '.4s ease-in';
+			drawer.style.transform = `translateY(${-this.openHeight}px)`;
+			this.isOpen = true;
+		}
+	}
 ```
 
 ## :cool: Features
 
-* tba
+* scss makes drawer open and close gently
 
 ## :clipboard: Status & To-do list
 
-* Status: On work. Displays working pull up drawer
-* To-do: Complete tutorial
+* Status: Working. Toggle button Displays/removes drawer
+* To-do: Button text can be linked to drawer status so it says 'open drawer' when drawer closed and 'close drawer' when drawer open. Other scss effects could be added to make the drawer opening/closing more fun.
 
 ## :clap: Inspiration
 
