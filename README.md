@@ -28,11 +28,12 @@
 
 * [Ionic v5](https://ionicframework.com/)
 * [Ionic/angular v5](https://ionicframework.com/)
-* [Angular v10](https://angular.io/)
+* [Angular v11](https://angular.io/)
 
 ## :floppy_disk: Setup
 
-* To start the server on _localhost://8100_ type: 'ionic serve'
+* `npm i`
+* `ionic serve` to start the server on _localhost://8100_
 
 ## :computer: Code Examples
 
@@ -63,13 +64,17 @@
 
 ## :clipboard: Status & To-do list
 
-* Status: Working. Toggle button Displays/removes drawer
+* Status: Working. Updated april 2021.
 * To-do: Button text can be linked to drawer status so it says 'open drawer' when drawer closed and 'close drawer' when drawer open. Other scss effects could be added to make the drawer opening/closing more fun.
 
 ## :clap: Inspiration
 
 * [Simon Grimm 'How to Create an Ionic Bottom Drawer with Gestures'](https://www.youtube.com/watch?v=xl4S8FM8Wcc&t=0s).
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com

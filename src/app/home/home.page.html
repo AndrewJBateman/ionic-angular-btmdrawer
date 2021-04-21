@@ -1,20 +1,20 @@
 <ion-header [translucent]="true">
-	<ion-toolbar color="primary">
-		<ion-title class="ion-text-center"> Bottom Drawer Demo App</ion-title>
-	</ion-toolbar>
+  <ion-toolbar color="primary">
+    <ion-title class="ion-text-center"> Bottom Drawer Demo App</ion-title>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content scrollY="false">
-	<div
-		class="backdrop"
-		[ngClass]="backdropVisible ? 'fade-in' : 'fade'"
-		tappable
-		(click)="drawer.toggleDrawer()"
-	></div>
+  <div
+    class="backdrop"
+    [ngClass]="backdropVisible ? 'fade-in' : 'fade'"
+    tappable
+    (click)="drawer.toggleDrawer()"
+  ></div>
 
-	<ion-button (click)="drawer.toggleDrawer()" expand="full"
-		>Open the Drawer</ion-button
-	>
+  <ion-button (click)="drawer.toggleDrawer()" expand="full"
+    >Open the Drawer</ion-button
+  >
 
-	<app-drawer (openStateChanged)="toggleBackdrop($event)" #drawer></app-drawer>
+  <app-drawer (openStateChanged)="toggleBackdrop($event)" #drawer></app-drawer>
 </ion-content>
