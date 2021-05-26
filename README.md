@@ -1,6 +1,7 @@
 # :zap: Ionic Angular Audio Reproduction
 
-* App to open a bottom drawer using gestures. This is another great tutorial from [Simon Grimm 'How to Create an Ionic Bottom Drawer with Gestures'](https://www.youtube.com/watch?v=xl4S8FM8Wcc&t=0s).
+* App to open a bottom drawer using gestures.
+* Another great tutorial from [Simon Grimm 'How to Create an Ionic Bottom Drawer with Gestures'](https://www.youtube.com/watch?v=xl4S8FM8Wcc&t=0s).
 
 ## :page_facing_up: Table of contents
 
@@ -28,7 +29,7 @@
 
 * [Ionic v5](https://ionicframework.com/)
 * [Ionic/angular v5](https://ionicframework.com/)
-* [Angular v11](https://angular.io/)
+* [Angular v12](https://angular.io/)
 
 ## :floppy_disk: Setup
 
