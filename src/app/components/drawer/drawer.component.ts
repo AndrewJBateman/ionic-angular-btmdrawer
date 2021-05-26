@@ -28,7 +28,7 @@ export class DrawerComponent implements AfterViewInit {
 		const drawer = this.drawer.nativeElement;
 		this.openHeight = (this.plt.height() / 100) * 70;
 
-		const gesture = await this.gestureCtrl.create({
+		const gesture = this.gestureCtrl.create({
 			el: drawer,
 			gestureName: 'swipe',
 			direction: 'y',
