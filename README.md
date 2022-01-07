@@ -27,9 +27,9 @@
 
 ## :signal_strength: Technologies
 
-* [Ionic v5](https://ionicframework.com/)
-* [Ionic/angular v5](https://ionicframework.com/)
-* [Angular v12](https://angular.io/)
+* [Ionic v6](https://ionicframework.com/)
+* [Ionic/angular v6](https://ionicframework.com/)
+* [Angular v13](https://angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -65,7 +65,7 @@
 
 ## :clipboard: Status & To-do list
 
-* Status: Working. Updated april 2021.
+* Status: Working.
 * To-do: Button text can be linked to drawer status so it says 'open drawer' when drawer closed and 'close drawer' when drawer open. Other scss effects could be added to make the drawer opening/closing more fun.
 
 ## :clap: Inspiration
