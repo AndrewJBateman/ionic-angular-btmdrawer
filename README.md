@@ -28,7 +28,6 @@
 
 ## :signal_strength: Technologies
 
-* [Ionic v6](https://ionicframework.com/)
 * [Ionic/angular v6](https://ionicframework.com/)
 * [Angular v14](https://angular.io/)
 
@@ -39,7 +38,7 @@
 
 ## :computer: Code Examples
 
-* extract from `drawer.component.ts` to gently open or close the drawer when html button is toggled
+* extract from `drawer.component.ts` to gently open or close the drawer when HTML button is toggled
 
 ```typescript
 // Function activated by html button to open drawer if closed and vice-versa
