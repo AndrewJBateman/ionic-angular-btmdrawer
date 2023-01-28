@@ -29,7 +29,7 @@
 ## :signal_strength: Technologies
 
 * [Ionic/angular v6](https://ionicframework.com/)
-* [Angular v14](https://angular.io/)
+* [Angular v15](https://angular.io/)
 
 ## :floppy_disk: Setup
 
@@ -70,7 +70,7 @@
 
 ## :clap: Inspiration
 
-* [Simon Grimm 'How to Create an Ionic Bottom Drawer with Gestures'](https://www.youtube.com/watch?v=xl4S8FM8Wcc&t=0s).
+* [Simon Grimm 'How to Create an Ionic Bottom Drawer with Gestures'](https://www.y  outube.com/watch?v=xl4S8FM8Wcc&t=0s).
 
 ## :file_folder: License
 
