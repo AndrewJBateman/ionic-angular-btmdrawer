@@ -70,7 +70,7 @@
 
 ## :clap: Inspiration
 
-* [Simon Grimm 'How to Create an Ionic Bottom Drawer with Gestures'](https://www.y  outube.com/watch?v=xl4S8FM8Wcc&t=0s).
+* [Simon Grimm 'How to Create an Ionic Bottom Drawer with Gestures'](https://www.youtube.com/watch?v=xl4S8FM8Wcc&t=0s).
 
 ## :file_folder: License
 
@@ -78,4 +78,4 @@
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@gmail.com
